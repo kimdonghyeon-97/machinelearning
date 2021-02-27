@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>MachineLearning Mini Project</title>
     <style>
         #name {
             text-align:center;
@@ -71,7 +71,7 @@
         await webcam.setup(); // request access to the webcam
         await webcam.play();
         window.requestAnimationFrame(loop);
-        alert("머신러닝 모델을 불러오고 있습니다. 잠시만 기다려 주십시오.(약 8초 이내)")
+        alert("머신러닝 모델을 불러오고 있습니다.<br>잠시만 기다려 주십시오.(약 8초 이내)")
 
         // append elements to the DOM
         document.getElementById("webcam-container").appendChild(webcam.canvas);
